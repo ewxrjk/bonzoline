@@ -2,6 +2,7 @@ build:
 	go build
 
 check: build
+	go test
 	${GOPATH}/bin/errcheck *.go
 
 format:
