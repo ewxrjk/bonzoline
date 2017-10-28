@@ -1,3 +1,3 @@
 # bonzoline #
 
-A collection of miscealleneous utilities.
+A collection of miscellaneous utilities.
