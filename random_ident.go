@@ -51,7 +51,7 @@ func identFromReader(rng io.Reader, n int) (ident string, err error) {
 	return
 }
 
-// Return a random lower-case ident string of length n.
+// Return a random lower-case alphanumeric ident string of length n.
 func RandomIdent(n int) (s string, err error) {
 	if s, err = identFromReader(rand.Reader, n); err != nil {
 		return
